@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link href="https://lucas-salomao.github.io/controle-estacionamento/css/styles.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Cadastro de Veículos</title>
+</head>
+<body>
+  <h1>Cadastro de veículos</h1>
+  <div id="area">
+    <form id="form" action="https://lucas-salomao.github.io/controle-estacionamento/html/json.html">
+      <fieldset>
+        <legend>Formulário</legend>
+        <label for="placa">Placa do veículo:</label><input type="text" class="form-control" id="placa" name="placa" required><br>       
+        <label for="nome">Nome do proprietário:</label><input type="text" class="form-control" id="nome" name="nome" required><br>
+        <label for="numero-apartamento">Número do apartamento:</label><input type="number" class="form-control" id="numero-apartamento" name="numero-apartamento" required><br>
+        <label for="bloco">Bloco do apartamento:</label><input type="text" class="form-control" id="bloco" name="bloco" required><br>
+        <label for="modelo">Modelo do veículo:</label><input type="text" class="form-control" id="modelo" name="modelo" required><br>
+        <label for="cor">Cor do veículo:</label><input type="text" class="form-control" id="cor" name="cor" required><br>
+        <label for="numero-vaga">Número da vaga de estacionamento:</label><input type="number" class="form-control" id="numero-vaga" name="numero-vaga" required><br>
+        <button type="button" class="btn btn-voltar" id="btn-voltar">Voltar</button>
+        <button type="button" class="btn btn-adicionar" id="btn-adicionar">Adicionar</button>
+        <button type="submit" class="btn btn-salvar" id="btn-salvar">Salvar</button>
+      </fieldset>
+    </form>
+  </div>
+  <table class="table table-preview" id="table-preview">
+    <thead>
+      <tr>
+        <th>Placa do veículo</th>
+        <th>Nome do proprietário</th>
+        <th>Número do apartamento</th>
+        <th>Bloco do apartamento</th>
+        <th>Modelo do veículo</th>
+        <th>Cor do veículo</th>
+        <th>Número da vaga de estacionamento</th>
+      </tr>
+    </thead>
+    <tbody>
+    
+    </tbody>
+  </table>
+  <script src="https://lucas-salomao.github.io/controle-estacionamento/js/script.js"></script>
+</body>
+<footer class="rodape">
+  <p>by Lucas Salomão</p>
+</footer>
+</html>
